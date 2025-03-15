@@ -1,0 +1,31 @@
+# Ignorar arquivos do ambiente virtual
+venv/
+env/
+*.egg-info/
+
+# Ignorar arquivos do Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar pastas de logs
+*.log
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração do IDE (ex: VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ignorar arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar o diretório do MLflow (caso você esteja utilizando)
+mlruns/
+
+# Ignorar arquivos de dados grandes ou gerados (caso não queira versionar)
+*.csv
+*.xlsx
