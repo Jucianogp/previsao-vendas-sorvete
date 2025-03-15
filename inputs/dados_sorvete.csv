@@ -1,0 +1,12 @@
+import pandas as pd
+
+# Criando um DataFrame de exemplo
+dados = {
+    'Temperatura': [25, 30, 35, 28, 40],
+    'Vendas': [150, 180, 220, 160, 250]
+}
+
+df = pd.DataFrame(dados)
+
+# Salvando o DataFrame em um arquivo CSV
+df.to_csv('inputs/dados_sorvete.csv', index=False)
